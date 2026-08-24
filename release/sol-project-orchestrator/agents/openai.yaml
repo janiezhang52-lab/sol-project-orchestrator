@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sol 项目总控｜可执行 MVP"
+  short_description: "用四个同项目任务完成执行、独立验收、技术收口和产品决定"
+  default_prompt: "Use $sol-project-orchestrator with ‘立项：目标’, then ‘去执行’, and finish with an explicit product decision."

@@ -1,0 +1,49 @@
+Sol Project Orchestrator Licensing
+
+Copyright (c) 2026 Ningning
+Required Notice: Copyright 2026 Ningning. Sol Project Orchestrator is an original project by Ningning.
+
+This repository is source-available for noncommercial use. It is not licensed
+under the MIT License.
+
+1. Software and operational files
+
+The software and operational portions of this repository are licensed under
+the PolyForm Noncommercial License 1.0.0. The complete terms are in:
+
+  LICENSES/PolyForm-Noncommercial-1.0.0.txt
+
+This applies to SKILL.md, agents/, data/, schemas/, scripts/, tests/,
+.gitignore, provenance/source-manifest.json, and any code or machine-readable
+operational file not expressly listed as documentation below.
+
+2. Documentation and written materials
+
+The documentation and written materials are licensed under the Creative
+Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+The complete terms are in:
+
+  LICENSES/CC-BY-NC-4.0.txt
+
+This applies to README.md, CHANGELOG.md, SECURITY.md, references/, templates/,
+and provenance/PUBLIC_PROVENANCE.md.
+
+3. Commercial use
+
+Except where applicable law permits otherwise, no commercial-use permission
+is granted by these licenses. Any commercial use requires separate prior
+written permission from Ningning. Contact the copyright holder through the
+official project repository for commercial licensing.
+
+商业使用必须事先取得宁宁的书面授权。
+
+4. Project identity
+
+The project name, author identity, and any project logo are not licensed for
+use in a way that suggests endorsement, sponsorship, or official status.
+Reasonable use required for attribution is permitted.
+
+5. Third-party material
+
+Any third-party material identified in the repository remains subject to its
+own license and is not relicensed by this notice.

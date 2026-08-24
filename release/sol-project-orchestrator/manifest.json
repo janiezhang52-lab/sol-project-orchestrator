@@ -1,0 +1,39 @@
+{
+  "schema": "sol-vnext-mvp-release-manifest-v1",
+  "version": "0.3.3",
+  "self_excluded": true,
+  "tree_hash_algorithm": "sha256(path_utf8 + NUL + decimal_bytes + NUL + sha256_hex + LF), sorted by path_utf8",
+  "tree_sha256": "0cb9a029e29cd57af9609d4b6be88dfe63e5dd8dfc9c424afb9e90fedd5641ae",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1801,
+      "sha256": "93c05b814180d6af21c12019061db8887e0495645a4721f8cfe02bce16d13aa3"
+    },
+    {
+      "path": "LICENSES/CC-BY-NC-4.0.txt",
+      "bytes": 19346,
+      "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19"
+    },
+    {
+      "path": "LICENSES/PolyForm-Noncommercial-1.0.0.txt",
+      "bytes": 4563,
+      "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8261,
+      "sha256": "e876508851b178624856b6dab31af48285f9dedd1ae8a00531e434d70d99aa03"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 313,
+      "sha256": "b15207cf8bd08ce9763d14849b46d51e5aaaba9cb872341cb8f38a3bf6d57b3b"
+    },
+    {
+      "path": "scripts/sol_driver.py",
+      "bytes": 76550,
+      "sha256": "8786f2d4744a16016cbd15d4eb4f6814b3a84dc62df9b4ce71bb1482999cf894"
+    }
+  ]
+}

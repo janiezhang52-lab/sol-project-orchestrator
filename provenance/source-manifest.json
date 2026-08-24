@@ -1,0 +1,200 @@
+{
+  "schema": "sol-public-source-manifest-v2",
+  "version": "0.3.3",
+  "private_git_object_ids_published": false,
+  "public_repository_history": {
+    "status": "clean_snapshot_not_created",
+    "owner": "janiezhang52-lab",
+    "repository": "sol-project-orchestrator",
+    "default_branch": "main",
+    "public_tag_name": "v0.3.3",
+    "public_tag_target": "pending_final_approved_snapshot"
+  },
+  "formal_zip": {
+    "name": "sol-project-orchestrator-0.3.3.zip",
+    "bytes": 31633,
+    "sha256": "92a62af2641e027390c8bbfe2d64d710bc2fb5f267cf470cb75d5dc31d3c0b84"
+  },
+  "release_tree_sha256": "0cb9a029e29cd57af9609d4b6be88dfe63e5dd8dfc9c424afb9e90fedd5641ae",
+  "release_tree_byte_match": "PASS",
+  "self_excluded": true,
+  "checksum_file_excluded": true,
+  "recorded_file_count": 25,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 74,
+      "sha256": "d4730708fca3e782b655552325a5ab59a6c94fe06dd95d519911c1e1f9adf9ff",
+      "source_category": "authored-public-operational-file",
+      "source_ref": "public-release-material"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 561,
+      "sha256": "54717e9d6bd3708de3d4eaa28241c7ffdff74468aa60f07c2b028f313e8e069e",
+      "source_category": "authored-public-document",
+      "source_ref": "public-release-material"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 463,
+      "sha256": "d8643cd5b18025d0f3c64a71362a907142bf25dd66f74cbdbbe0c165cfeb1eef",
+      "source_category": "authored-public-document",
+      "source_ref": "public-release-material"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 727,
+      "sha256": "6d233aefa4b3aff43d6d37376777f6ecf84a7755fe39e221aa3c798770f8293e",
+      "source_category": "authored-public-document",
+      "source_ref": "public-release-material"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1801,
+      "sha256": "93c05b814180d6af21c12019061db8887e0495645a4721f8cfe02bce16d13aa3",
+      "source_category": "exact-release-license-copy",
+      "source_ref": "copy:release/sol-project-orchestrator/LICENSE"
+    },
+    {
+      "path": "LICENSES/CC-BY-NC-4.0.txt",
+      "bytes": 19346,
+      "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+      "source_category": "exact-release-license-copy",
+      "source_ref": "copy:release/sol-project-orchestrator/LICENSES/CC-BY-NC-4.0.txt"
+    },
+    {
+      "path": "LICENSES/PolyForm-Noncommercial-1.0.0.txt",
+      "bytes": 4563,
+      "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8",
+      "source_category": "exact-release-license-copy",
+      "source_ref": "copy:release/sol-project-orchestrator/LICENSES/PolyForm-Noncommercial-1.0.0.txt"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 10463,
+      "sha256": "24b4fed455a6930469abc6d05482add1585819ad6a533e45b4f9deff4251f5b6",
+      "source_category": "authored-public-document",
+      "source_ref": "public-release-material"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8596,
+      "sha256": "8bbcbf963bb24af23f9e56f04f81dffff077c8f4a872d1b40f831ab3991738ad",
+      "source_category": "authored-public-document",
+      "source_ref": "public-release-material"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 489,
+      "sha256": "946ad27aebf743f73d8ad99082de096cf89e98791542556ba99e1199681b918f",
+      "source_category": "authored-public-document",
+      "source_ref": "public-release-material"
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 369,
+      "sha256": "1c3c8deeff6ecfa09b4f09ee12a852107deb6d5d81d9a4d88e319cb863941b94",
+      "source_category": "authored-public-document",
+      "source_ref": "public-release-material"
+    },
+    {
+      "path": "assets/sol-readme-hero.png",
+      "bytes": 1353176,
+      "sha256": "4766c937bddc27da88961fb46ccf3d32741587ba025ec3dd345665270885f216",
+      "source_category": "authored-public-media",
+      "source_ref": "approved-readme-media"
+    },
+    {
+      "path": "assets/sol-workflow-contract.png",
+      "bytes": 1383146,
+      "sha256": "8c6b24b9e6d03b947d50b348d5a50efd9fe01bd4b13b680d467cabde234c118b",
+      "source_category": "authored-public-media",
+      "source_ref": "approved-readme-media"
+    },
+    {
+      "path": "docs/PRODUCT-CONTRACT.md",
+      "bytes": 2965,
+      "sha256": "cf3200b05cba77c36314d39cda958d600cb45e1c33ded80be5841e2ac016c6eb",
+      "source_category": "public-layout-adaptation",
+      "source_ref": "adapted-for-public-user-facing-contract"
+    },
+    {
+      "path": "provenance/PUBLIC_PROVENANCE.md",
+      "bytes": 1809,
+      "sha256": "445054b4c571666f9ac9d1c4a9795d257840022d1ba3f900197f849823a42828",
+      "source_category": "authored-public-provenance",
+      "source_ref": "public-release-material"
+    },
+    {
+      "path": "release/sol-project-orchestrator/LICENSE",
+      "bytes": 1801,
+      "sha256": "93c05b814180d6af21c12019061db8887e0495645a4721f8cfe02bce16d13aa3",
+      "source_category": "exact-formal-release-tree",
+      "source_ref": "formal-zip:LICENSE"
+    },
+    {
+      "path": "release/sol-project-orchestrator/LICENSES/CC-BY-NC-4.0.txt",
+      "bytes": 19346,
+      "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+      "source_category": "exact-formal-release-tree",
+      "source_ref": "formal-zip:LICENSES/CC-BY-NC-4.0.txt"
+    },
+    {
+      "path": "release/sol-project-orchestrator/LICENSES/PolyForm-Noncommercial-1.0.0.txt",
+      "bytes": 4563,
+      "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8",
+      "source_category": "exact-formal-release-tree",
+      "source_ref": "formal-zip:LICENSES/PolyForm-Noncommercial-1.0.0.txt"
+    },
+    {
+      "path": "release/sol-project-orchestrator/SKILL.md",
+      "bytes": 8261,
+      "sha256": "e876508851b178624856b6dab31af48285f9dedd1ae8a00531e434d70d99aa03",
+      "source_category": "exact-formal-release-tree",
+      "source_ref": "formal-zip:SKILL.md"
+    },
+    {
+      "path": "release/sol-project-orchestrator/agents/openai.yaml",
+      "bytes": 313,
+      "sha256": "b15207cf8bd08ce9763d14849b46d51e5aaaba9cb872341cb8f38a3bf6d57b3b",
+      "source_category": "exact-formal-release-tree",
+      "source_ref": "formal-zip:agents/openai.yaml"
+    },
+    {
+      "path": "release/sol-project-orchestrator/manifest.json",
+      "bytes": 1245,
+      "sha256": "c59ecf80c4a45c2eb4532b15fef5f34e5424724b81c6ae9a9df6c638a62c7b3c",
+      "source_category": "exact-formal-release-tree",
+      "source_ref": "formal-zip:manifest.json"
+    },
+    {
+      "path": "release/sol-project-orchestrator/scripts/sol_driver.py",
+      "bytes": 76550,
+      "sha256": "8786f2d4744a16016cbd15d4eb4f6814b3a84dc62df9b4ce71bb1482999cf894",
+      "source_category": "exact-formal-release-tree",
+      "source_ref": "formal-zip:scripts/sol_driver.py"
+    },
+    {
+      "path": "tests/test_public_product_contract.py",
+      "bytes": 1407,
+      "sha256": "3f555918c7e70f9cce5e4c767d3d154ab864dd2ce17a204ccf7fadb2314d0de0",
+      "source_category": "public-layout-adaptation",
+      "source_ref": "adapted-for-public-user-facing-contract"
+    },
+    {
+      "path": "tests/test_vnext_mvp_driver.py",
+      "bytes": 59619,
+      "sha256": "d41894e25dc2a6fcbb8a4cc30594d995c0c462d837e1d14e88de40e03eb12f5b",
+      "source_category": "exact-frozen-source-test",
+      "source_ref": "frozen-product-source:tests/test_vnext_mvp_driver.py"
+    },
+    {
+      "path": "tests/test_vnext_mvp_skill_package.py",
+      "bytes": 8446,
+      "sha256": "1cea3ca2d2f11ea350d44c33589dbbcc65c6a150f8518b7ef3b9e73c63ce6a70",
+      "source_category": "exact-frozen-source-test",
+      "source_ref": "frozen-product-source:tests/test_vnext_mvp_skill_package.py"
+    }
+  ]
+}
