@@ -9,7 +9,7 @@
 > **Give yourself an AI project team that is accountable for results.**
 
 <p align="center">
-  <img src="assets/sol-readme-hero.png" alt="Sol gives you an AI project team that is accountable for results. The user talks only to 00, while 01 executes, 02 performs independent acceptance, and 03 performs technical closeout." width="100%">
+  <img src="assets/sol-readme-hero.en.png" alt="Sol gives you an AI project team that is accountable for results. The user talks only to 00, while 01 executes, 02 performs independent acceptance, and 03 performs technical closeout." width="100%">
 </p>
 
 The more AI windows you open, the busier you may become.
@@ -29,7 +29,7 @@ You talk only to one controller. The controller creates the other three tasks an
 ## Understand Sol in 30 seconds
 
 <p align="center">
-  <img src="assets/sol-workflow-contract.png" alt="How Sol advances one round of work: 00 dispatches, waits, reads, and collects every stage. 01 execution, 02 independent acceptance, and 03 technical closeout advance in order without private handoffs between roles." width="100%">
+  <img src="assets/sol-workflow-contract.en.png" alt="How Sol advances one round of work: 00 dispatches, waits, reads, and collects every stage. 01 execution, 02 independent acceptance, and 03 technical closeout advance in order without private handoffs between roles." width="100%">
 </p>
 
 ```text
