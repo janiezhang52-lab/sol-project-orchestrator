@@ -120,6 +120,10 @@ Sol 适合任务链较长、会持续迭代、失败代价较高，或者需要�
 
 ## 安装
 
+从[发布页](https://github.com/janiezhang52-lab/sol-project-orchestrator/releases/tag/v0.3.3)下载[正式 v0.3.3 ZIP](https://github.com/janiezhang52-lab/sol-project-orchestrator/releases/download/v0.3.3/sol-project-orchestrator-0.3.3.zip)。安装使用正式包，不使用 GitHub 自动生成的源码归档。
+
+Sol 是本地 Codex Skill，使用 Python driver 与项目外 SQLite 账本。它需要已保存的 Codex 项目及正式 Skill 列出的 Host 工具；Skill 通过 Host 获取 bundled Python。它不是独立网页服务。工具或项目绑定不匹配会停止流程，不保证兼容所有未来 Host 版本。英文资料不改变运行时的中文触发词。
+
 将正式 ZIP 解包后的 7 个文件按原目录结构放入以下任一位置：
 
 - 用户级：`$HOME/.agents/skills/sol-project-orchestrator`
@@ -153,3 +157,11 @@ Copyright © 2026 Ningning.
 - 商业使用：必须事先取得版权所有者的书面许可。授权咨询：[janiezhang93@gmail.com](mailto:janiezhang93@gmail.com)。
 
 完整条款见 `LICENSE` 与 `LICENSES/`。Sol 是独立社区项目，与 OpenAI 没有隶属、赞助、官方认可或背书关系。
+
+## 更多文档
+
+- [贡献与测试](CONTRIBUTING.md)
+- [支持](SUPPORT.md) · [安全](SECURITY.md) · [行为准则](CODE_OF_CONDUCT.md)
+- [产品合同](docs/PRODUCT-CONTRACT.md) · [版本记录](CHANGELOG.md)
+- [公开来源与验证范围](provenance/PUBLIC_PROVENANCE.md)
+- [中英文覆盖与检查](docs/DOCUMENTATION-COVERAGE.md)

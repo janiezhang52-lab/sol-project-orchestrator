@@ -1,5 +1,7 @@
 # Sol 不可变产品合同 v1
 
+简体中文 | [English](PRODUCT-CONTRACT.en.md)
+
 状态：`FROZEN_PRODUCT_CONTRACT_V1`
 
 本合同来自已通过 Windows 与 macOS 产品验收的 V9 四角色链，以及已通过双平台完整链的 Sol MVP 0.3。Git 兼容只能扩展实现边界，不得改变本合同。
