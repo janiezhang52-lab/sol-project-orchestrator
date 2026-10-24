@@ -1,5 +1,7 @@
 # Sol
 
+[English preview / 英文预览版](ENGLISH-PREVIEW.md)
+
 简体中文 | [English](README.en.md)
 
 `Sol Project Orchestrator`
@@ -153,3 +155,4 @@ Copyright © 2026 Ningning.
 - 商业使用：必须事先取得版权所有者的书面许可。授权咨询：[janiezhang93@gmail.com](mailto:janiezhang93@gmail.com)。
 
 完整条款见 `LICENSE` 与 `LICENSES/`。Sol 是独立社区项目，与 OpenAI 没有隶属、赞助、官方认可或背书关系。
+
