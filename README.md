@@ -1,8 +1,8 @@
 # Sol
 
-[English preview / 英文预览版](ENGLISH-PREVIEW.md)
-
 简体中文 | [English](README.en.md)
+
+本文介绍原版 **v0.3.3（中文指令）**；[English documentation](README.en.md) 是该版本的英文说明。需要英文指令、角色提示与结果，请查看 [v0.3.4 英文运行预览](ENGLISH-PREVIEW.md)及[安装与使用检查](INSTALLATION-CHECK.md)。原版双平台验收不覆盖英文预览。
 
 `Sol Project Orchestrator`
 
@@ -118,9 +118,13 @@ Sol 适合任务链较长、会持续迭代、失败代价较高，或者需要�
 
 一句翻译、改一个标题、解释一个概念等几分钟就能人工确认的工作，通常不需要四角色责任链。Sol 不应该把简单任务过度治理。
 
-当前版本只支持同一个已保存 Codex 项目中的 fresh A0 起点，固定使用 00、01、02、03 四个任务；不自动迁移旧账本，也不把跨项目状态拼接成一次恢复。
+本页介绍的 v0.3.3 只支持同一个已保存 Codex 项目中的 fresh A0 起点，固定使用 00、01、02、03 四个任务；不自动迁移旧账本，也不把跨项目状态拼接成一次恢复。
 
 ## 安装
+
+从[发布页](https://github.com/janiezhang52-lab/sol-project-orchestrator/releases/tag/v0.3.3)下载[正式 v0.3.3 ZIP](https://github.com/janiezhang52-lab/sol-project-orchestrator/releases/download/v0.3.3/sol-project-orchestrator-0.3.3.zip)。安装使用正式包，不使用 GitHub 自动生成的源码归档。
+
+Sol 是本地 Codex Skill，使用 Python driver 与项目外 SQLite 账本。它需要已保存的 Codex 项目及正式 Skill 列出的 Host 工具；Skill 通过 Host 获取 bundled Python。它不是独立网页服务。工具或项目绑定不匹配会停止流程，不保证兼容所有未来 Host 版本。英文资料不改变运行时的中文触发词。
 
 将正式 ZIP 解包后的 7 个文件按原目录结构放入以下任一位置：
 
@@ -156,3 +160,10 @@ Copyright © 2026 Ningning.
 
 完整条款见 `LICENSE` 与 `LICENSES/`。Sol 是独立社区项目，与 OpenAI 没有隶属、赞助、官方认可或背书关系。
 
+## 更多文档
+
+- [贡献与测试](CONTRIBUTING.md)
+- [支持](SUPPORT.md) · [安全](SECURITY.md) · [行为准则](CODE_OF_CONDUCT.md)
+- [产品合同](docs/PRODUCT-CONTRACT.md) · [版本记录](CHANGELOG.md)
+- [公开来源与验证范围](provenance/PUBLIC_PROVENANCE.md)
+- [中英文覆盖与检查](docs/DOCUMENTATION-COVERAGE.md)

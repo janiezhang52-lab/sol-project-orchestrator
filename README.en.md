@@ -2,6 +2,8 @@
 
 [简体中文](README.md) | English
 
+**Edition scope:** this page documents the original **v0.3.3 runtime with Chinese commands** in English. For **v0.3.4 with English commands, role prompts, and results**, use the [English runtime preview](ENGLISH-PREVIEW.md) and its [installation and usage check](INSTALLATION-CHECK.md). The original Windows/macOS acceptance does not certify that preview.
+
 `Sol Project Orchestrator`
 
 > **Give creators back their valuable attention and decision-making capacity.**
@@ -41,7 +43,7 @@ You: 去执行
 
 01 | Produce the real deliverable and report the execution result
      ↓
-02 | Independently and read-only verify the frozen goal and real artifact
+02 | Perform an independent, read-only check of the frozen goal and real artifact
      ↓
 03 | Read the original reports from 01 and 02 and determine whether
      the evidence forms a technical closeout
@@ -60,7 +62,7 @@ The arrows mean that 00 advances stages according to the driver. They do not mea
 | --- | --- | --- |
 | `00｜Sol Project Controller` | Freeze the goal, advance the workflow, wait for and read stage results, and return the complete facts to you | Does not replace 02's acceptance and does not accept the product for you |
 | `01｜Execution` | Produce the real deliverable against the frozen goal and report the actual result | Cannot accept its own work |
-| `02｜Independent Acceptance` | Independently and read-only verify the frozen goal and real artifact, then report an acceptance result | Does not modify the product |
+| `02｜Independent Acceptance` | Perform an independent, read-only check of the frozen goal and real artifact, then report an acceptance result | Does not modify the product |
 | `03｜Technical Closeout` | Read the original reports from 01 and 02 separately and determine whether the goal, evidence, and blockers form a technical closeout | Is not a second acceptance role |
 | **You (final decision-maker)** | Decide the goal, taste, tradeoffs, and whether to accept the product | Do not need to become a fifth acceptance role |
 
@@ -120,9 +122,13 @@ Sol is useful when a task has a long delivery chain, will be iterated over time,
 
 A translation, one title edit, or a concept explanation that a person can verify in a few minutes usually does not need a four-role responsibility chain. Sol should not over-govern simple work.
 
-The current version supports only a fresh A0 starting point inside one saved Codex project and always uses the four tasks 00, 01, 02, and 03. It does not automatically migrate old ledgers or combine cross-project state into one recovery.
+The v0.3.3 runtime described here supports only a fresh A0 starting point inside one saved Codex project and always uses the four tasks 00, 01, 02, and 03. It does not automatically migrate old ledgers or combine cross-project state into one recovery.
 
 ## Installation
+
+Download the [formal v0.3.3 ZIP](https://github.com/janiezhang52-lab/sol-project-orchestrator/releases/download/v0.3.3/sol-project-orchestrator-0.3.3.zip) from the [release page](https://github.com/janiezhang52-lab/sol-project-orchestrator/releases/tag/v0.3.3). Use the formal package, rather than GitHub’s automatically generated source archive, for installation.
+
+Sol is a local Codex Skill with a Python driver and an external SQLite ledger. It requires a saved Codex project and the Host tools named in the packaged Skill; the Skill obtains bundled Python through the Host. It is not a standalone web service. Tool or project-binding mismatches stop the workflow; compatibility with every future Host version is not guaranteed. This documentation translation does not change v0.3.3's Chinese trigger phrases; the separate v0.3.4 English preview has its own commands and ledger.
 
 Extract the seven files from the formal ZIP and preserve their directory structure in either location:
 
@@ -157,3 +163,11 @@ This is a **source-available** project for noncommercial use. It is not open-sou
 - Commercial use requires prior written permission from the copyright holder. Licensing inquiries: [janiezhang93@gmail.com](mailto:janiezhang93@gmail.com).
 
 See `LICENSE` and `LICENSES/` for the complete terms. Sol is an independent community project and is not affiliated with, sponsored by, approved by, or endorsed by OpenAI.
+
+## Documentation
+
+- [Contributing and test command](CONTRIBUTING.en.md)
+- [Support](SUPPORT.en.md) · [Security](SECURITY.en.md) · [Code of conduct](CODE_OF_CONDUCT.en.md)
+- [Product contract](docs/PRODUCT-CONTRACT.en.md) · [Changelog](CHANGELOG.en.md)
+- [Public provenance](provenance/PUBLIC_PROVENANCE.en.md)
+- [Chinese–English coverage and checks](docs/DOCUMENTATION-COVERAGE.md)
