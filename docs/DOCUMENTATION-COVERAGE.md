@@ -36,3 +36,17 @@ See the checks recorded below. Historical acceptance claims in translated pages 
 - Local Markdown/image destinations and balanced code fences checked; `git diff --check` passed. / 本地链接、图片目标、代码围栏及差异空白检查通过。
 - Across both repositories, 32 unique public HTTPS destinations returned HTTP 200 on 2026-10-22, including release/download URLs. HTTP availability does not verify every anchor, private-reporting permission, or page content claim. / 两仓库共 32 个 HTTPS 地址返回 200，不等于逐一验证锚点、私密报告权限或内容结论。
 - Runtime files, original legal texts, and image pixels match the base commit. No release ZIP was rebuilt. / 运行文件、法律原文和图片与基线一致，未重打包。
+
+## Preview integration review — 2026-10-28 / 英文预览导航复核
+
+The earlier 2026-10-22 checks above remain historical. This follow-up integrates the existing main-branch preview documents into the same documentation PR; it does not change either runtime or republish a release. / 上述 2026-10-22 检查仍为历史记录；本次在原文档 PR 中接入 main 已有预览说明，不改运行程序或发布包。
+
+| Material / 资料 | Scope and navigation / 范围与入口 |
+| --- | --- |
+| [README.md](../README.md) / [README.en.md](../README.en.md) | Original v0.3.3 runtime with Chinese commands; both link to the separate English preview and installation record / 原版双语文档均链接到独立英文运行预览与安装记录 |
+| [ENGLISH-PREVIEW.md](../ENGLISH-PREVIEW.md) | v0.3.4 English commands, role prompts, results, and separate ledger; links back to both documentation languages / 链接返回中英文说明 |
+| [INSTALLATION-CHECK.md](../INSTALLATION-CHECK.md) | Recorded 2026-10-24 checks for the English preview, with return navigation / 英文预览的 2026-10-24 历史检查及返回导航 |
+
+The two new main-branch pages are already in English; their Chinese-edition entry is retained, and no duplicate translation file is introduced. / main 新增两页已有英文，保留中文版本入口，不重复创建译本。
+
+Follow-up validation: all relative Markdown/image destinations and anchors in the combined public documentation were checked; release tags and named assets were checked through GitHub metadata. No runtime, browser, clean-machine, or live Host acceptance tests were rerun, and release ZIPs were not downloaded or rehashed in this follow-up. / 本次检查合并后公开文档的相对链接、图片目标、锚点，以及 GitHub release 与附件记录；未重跑功能、浏览器、新机安装或真实 Host 验收，未下载或重算发布包哈希。
